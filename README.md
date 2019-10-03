@@ -1,4 +1,3 @@
-
 # cs100f2018-lab5-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
@@ -203,7 +202,7 @@ Deletion: AAGTCTGGGCCTTAATCCAGATCAGA
 Display the random mutation
 Change: AACTCTCCCCCTTAATCCACATCACCA
 
-Thanks for using the ManipulateDna program. 
+Thanks for using the ManipulateDna program.
 Have an awesome day.
 ```
 
@@ -305,4 +304,3 @@ The grade that a student receives through Sakai on this assignment will have the
   encouraged to ask the course instructor or a student technical leader to use
   the GitHub issue tracker to provide feedback on how well their work
   demonstrates mastery of the assignment's technical knowledge and skills.
-

@@ -17,9 +17,13 @@
 ## Based on your experiences with simple DNA manipulation in this lab and reflecting on the assigned article, answer the following questions:
 
 1. Who makes the genome editing technology?
+
 2. Who are the users of the genome editing technology?
+
 3. Who is not supposed to use the genome editing technology?
+
 4. How can the genome editing technology cause harm?
+
 5. What solutions can be developed to avoid the harm caused by the genome editing technology or to fix the harm?
 
 

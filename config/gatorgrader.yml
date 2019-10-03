@@ -1,5 +1,5 @@
 ---
-name: cs100-01-lab05
+name: cs100-01-lab05-solution
 break: true
 indent: 4
 ---
@@ -28,23 +28,23 @@ src/main:
             MatchFileFragment --fragment "System.out.println" --count 8
             MatchFileFragment --fragment ".toUpperCase" --count 1
             MatchFileFragment --fragment "String" --count 5
-            MatchFileFragment --fragment ".substring" --count 1
+            MatchFileFragment --fragment ".substring" --count 2
             MatchFileFragment --fragment ".charAt" --count 2
-            MatchFileFragment --fragment ".nextInt" --count 4
+            MatchFileFragment --fragment ".nextInt" --count 3
             MatchFileFragment --fragment ".replace" --count 4
 
 # --> check the technical writing for various characteristics
 writing/reflection.md:
     ConfirmFileExists
     CountFileWords --count 300
-    CountMarkdownTags --tag "heading" --count 6 --exact
+    CountMarkdownTags --tag "heading" --count 7 --exact
     CountMarkdownTags --tag "code" --count 3 --exact
     CountMarkdownTags --tag "code_block" --count 1 --exact
-    CountMarkdownTags --tag "list" --count 1 --exact
+    CountMarkdownTags --tag "list" --count 2 --exact
     MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
 
 # --> check that the number of commits in the Git repository is beyond a threshold
-CountCommits --count 5
+CountCommits --count 1
 
 # --> check that the program executes correctly and produces exactly 4 lines of output
 ExecuteCommand --command "gradle build"
