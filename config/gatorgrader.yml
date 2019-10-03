@@ -28,9 +28,9 @@ src/main:
             MatchFileFragment --fragment "System.out.println" --count 8
             MatchFileFragment --fragment ".toUpperCase" --count 1
             MatchFileFragment --fragment "String" --count 5
-            MatchFileFragment --fragment ".substring" --count 2
+            MatchFileFragment --fragment ".substring" --count 1
             MatchFileFragment --fragment ".charAt" --count 2
-            MatchFileFragment --fragment ".nextInt" --count 3
+            MatchFileFragment --fragment ".nextInt" --count 4
             MatchFileFragment --fragment ".replace" --count 4
 
 # --> check the technical writing for various characteristics
